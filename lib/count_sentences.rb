@@ -17,6 +17,6 @@ class String
   def count_sentences
    self.split(sentence?,question?)
    array.count
-   
+
   end
 end
