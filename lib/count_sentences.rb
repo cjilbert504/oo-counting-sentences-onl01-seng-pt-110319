@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-   self.split(sentence?,question?,exclamation?)
+   array = []
+   array << self.split(sentence?,question?,exclamation?)
+   array.count
   end
 end
