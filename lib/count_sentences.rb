@@ -16,7 +16,7 @@ class String
 
   def count_sentences
    array = []
-   array << self.split(sentence?,question?,exclamation?)
+   array << self.split(sentence?,question?)
    array.count
    binding.pry
   end
