@@ -15,7 +15,6 @@ class String
   end
 
   def count_sentences
-   self.split(sentence?, question?, exclamation?)
-   self.count
+   self.split(/[.!?]/)
   end
 end
